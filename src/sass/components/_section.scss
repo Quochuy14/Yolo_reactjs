@@ -1,0 +1,18 @@
+.section {
+    margin-bottom: 80px;
+
+    & > * ~ * {
+        margin-top: 70px;
+    }
+
+    &__title {
+        font-size: 2.25rem;
+        text-transform: uppercase;
+        background-color: $main-color;
+        padding: 24px;
+        color: $txt-white;
+        border-radius: 3px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
